@@ -112,3 +112,50 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+    
+5 (a) Input
+3
+1 2
+2 2
+8 7
+2
+3 3
+2 9
+The output had to be
+{1:2, 8:7, 3:3}
+[[3,3]], [2,9]]
+{2,[2,9]}
+but this is not what we get.
+
+5 (b)
+there is an indentation error due to which it was not being read, in 53rd line else has to be indentated with else condition.
+
+5(c)
+i) input
+n1 = 3
+1 2
+2 2
+9 4
+n2 = 2
+3 3
+1 4
+expected output
+{ 2:2, 9:4, 3:3}
+[[3 : 3],[1,4]]
+{1: [2,4]}
+
+ii)
+n1 = 2
+1 2
+2 4
+n2 = 2
+3 4
+2 5
+
+expected output
+{ 2:4,3:4}
+[[3 4],[2 5]]
+{2 : [4 ,5]}
+
+
+
